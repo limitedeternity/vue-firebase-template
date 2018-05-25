@@ -1,0 +1,36 @@
+{
+  "name": "vue-firebase-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node pm2.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "cross-env": "5.1.6",
+    "express": "4.16.3",
+    "firebase": "5.0.4",
+    "helmet": "3.12.0",
+    "shrink-ray-current": "2.1.0",
+    "vuetify": "1.0.18"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-0": "6.24.1",
+    "clean-webpack-plugin": "0.1.19",
+    "css-loader": "0.28.11",
+    "file-loader": "1.1.11",
+    "store": "2.0.12",
+    "vue": "2.5.16",
+    "vue-loader": "14.2.2",
+    "vue-router": "3.0.1",
+    "vue-template-compiler": "2.5.16",
+    "vuex": "3.0.1",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1",
+    "workbox-cli": "3.2.0"
+  }
+}
